@@ -1,0 +1,52 @@
+#animal-encounter {
+  font-weight: bold;
+  margin: 0 0 20px;
+  font-size: 32px;
+  font-family: 'GothamBold';
+  color: rgb(205, 245, 255);
+  text-align: center;
+}
+
+#animal-encounter-desc {
+  font-family: "Gotham SSm A";
+  color:  rgb(205, 245, 255);
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.animal-encounter .copy-container {
+  padding: 50px 20px 20px;
+  max-width: 900px;
+  margin: 0 auto 30px auto;   
+}
+
+.animal-encounter {
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(1, 115, 177), rgb(3, 121, 115));
+  padding-top: 20px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-section .item {
+  width: calc(20% - 20px);
+  margin-bottom: 40px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.image-section .item img {
+  height: 250px;
+  width: 100%;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.image-section .item:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

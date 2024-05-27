@@ -1,0 +1,64 @@
+#video-main-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#hp-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#video-overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: transparent;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.buy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 40px;
+    margin: 6px;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    transition: color 0.25s, background-color 0.25s, border-color 0.25s;
+    color: #012a3a;
+    background-color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.buy-button:hover{
+    background-color: rgb(218, 216, 216);
+    border-color: rgb(218, 216, 216);
+}

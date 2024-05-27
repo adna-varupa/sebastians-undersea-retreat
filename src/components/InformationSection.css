@@ -1,0 +1,145 @@
+.info-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 22%;
+}
+
+#tname{
+    font-family: 'GothamBold';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0px 20px 100px;
+    border: 1px solid #e9e9e9;
+}
+
+table, th, td {
+    border: 1px solid #c9c8c8;
+    padding: 8px;
+}
+
+td{ 
+    text-align: left;
+    width: 50%;
+}
+
+tr{
+    height: 50px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.purchase{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    width: 40%;
+    height: 40px;
+    padding: 0;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(1, 115, 177);
+    border-color: rgb(1, 115, 177);
+}
+
+.purchase:hover{
+    background-color: #003446;
+    border-color: #003446;
+    color: #fff;
+    transition: color 0.25s, background-color 0.25s, border-color 0.25s;
+}
+
+.table-container tr td:last-child {
+    text-align: right;
+}
+
+#g{
+    background-color: #e9e9e9 !important;
+}
+
+.info-image{
+    background-image: url('../../public/images/antalya.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 300px; 
+    height: 300px; 
+}
+
+.information{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.list{
+    background-color: #012a3a;
+    color: whitesmoke;
+    font-family: "Gotham SSm A";
+    font-size: 14px;
+    padding:45px 45px 45px 30px;
+}
+
+.information span{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.list li {
+    margin-bottom: 20px;
+}
+
+.phone-icon{
+    background-image: url('../../public/images/viber.png');
+}
+
+.location-icon{
+    background-image: url('../../public/images/location.png');
+}
+
+.information h2 {
+    display: flex;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fa-clock{
+    margin-right:10px ;
+}
+
+.fa-location{
+    margin-right:10px ;
+}
+
+.fa-phone{
+    margin-right:10px ;
+}
+
+.list p{
+    margin-left:26px;
+}

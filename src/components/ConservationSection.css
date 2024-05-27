@@ -1,0 +1,145 @@
+.homepage-text-image {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5em;
+    word-break: break-word;
+    margin: 0;
+    margin-bottom: 0 !important;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(1, 115, 177);
+    height: 600px;
+    }
+    
+.homepage-text-image .left {
+    width: 48%;
+    float: left;
+    color: white;
+    margin-right: 2%;
+}
+
+.homepage-text-image div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.homepage-text-image .right {
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.homepage-text-image div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.homepage-text-image .right-wrapper {
+    width: 50%;
+    float: left;
+}
+
+.homepage-text-image div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.homepage-text-image .left .copy-container {
+    padding: 100px 50px;
+}
+.homepage-text-image div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.homepage-text-image .text-block {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.homepage-text-image div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.homepage-text-image .left .copy-container .button-container {
+    margin: 30px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .copy-container .button-container {
+        text-align: left;
+    }
+}
+
+.copy-container .button-container {
+    text-align: center;
+}
+.homepage-text-image div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.buttontwo {
+    padding: 10px 24px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #003446;
+    border: 1px solid #003446;
+}
+
+.buttontwo:hover {
+    background-color: #002a38;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#conservation {
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+    box-sizing: border-box;
+    padding: 0;
+    clear: both;
+    float: none;
+    line-height: 1.25em;
+    font-weight: bold;
+    margin: 0 0 20px;
+    font-size: 32px;
+    font-family: 'GothamBold';
+    color: rgb(205, 245, 255);
+}
+
+#consdesc {
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham SSm A";
+    margin-bottom: 1.5rem;
+    color: rgb(205, 245, 255);
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 25px;
+}   
+
