@@ -9,7 +9,7 @@ const InformationSection = () => {
           <caption id="tname"><i className="fas fa-ticket"></i> Tickets</caption>
           <tbody>
             <tr>
-              <td className="g">Adult</td>
+              <td className="g">Adults</td>
               <td className="g">$25</td>
             </tr>
             <tr>
