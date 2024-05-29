@@ -6,15 +6,17 @@ const NavBar = () => {
   return (
     <>
     <div className="navbar">
+      <Link to="/">
       <div className="company">
-        <img className="icon" src="images/ray.png" alt="Logo" />
-        <p id="name">Sebastian's Undersea Retreat</p>
+        <img className="icon" src="images/crab.png" alt="Logo" />
+        <p id="name">Sebastian's Undersea Retreat</p> 
       </div>
+      </Link>
       <div className="navbar-content">
         <Link to="/aboutus" className="part">ABOUT US</Link>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="part">CONTACT</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="login" id="login">LOGIN</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="login" id="register">REGISTER</a>
+        <Link to="/contact" className="part">CONTACT</Link>
+        <Link to="/login" className="part">LOGIN</Link>
+        <Link to="/register" className="part">REGISTER</Link>
       </div>
     </div>
     </>

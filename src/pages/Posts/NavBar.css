@@ -29,7 +29,7 @@
     font-family: 'Vegan';
 }
 
-#name {
+.name {
     font-size: 30px;
 }
 
@@ -72,13 +72,13 @@ a.part:hover::after {
     font-size: 14px;
 }
 
-#login {
+.login {
     border: 2px solid white;
     color: white;
     background-color: transparent;
 }
 
-#login:hover {
+.login:hover {
     background-color: white;
     color: rgba(6, 196, 165, 1);
     transform: scale(1.05);
@@ -86,13 +86,13 @@ a.part:hover::after {
     border: 2px solid rgba(6, 196, 165, 1);
 }
 
-#register {
+.register {
     background-color: white;
     color: rgba(6, 196, 165, 1);
     border: 2px solid white;
 }
 
-#register:hover {
+.register:hover {
     background-color: rgba(6, 196, 165, 0);
     color: white;
     transform: scale(1.05);

@@ -5,6 +5,20 @@
   font-style:normal;
   } 
 
+@font-face {
+  font-family: 'GothamBold';
+  src: url('../public/fonts/GothamBook.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vegan';
+  src: url('../public/fonts/Vegan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,20 +37,6 @@
   color: inherit;
   background-color: transparent;
   border: none;
-}
-
-@font-face {
-  font-family: 'GothamBold';
-  src: url('../public/fonts/GothamBook.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Vegan';
-  src: url('../public/fonts/Vegan.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 body {

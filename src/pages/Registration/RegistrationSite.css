@@ -1,0 +1,152 @@
+.MainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+form h2 {
+    margin: 32px 0 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.name-surname {
+    display: flex;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.name-surname input {
+    flex: 1;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 32px;
+    height: 48px;
+    padding: 16px;
+    border: none;
+    outline: none;
+    color: #3c354e;
+    font-size: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease;
+}
+
+.name-surname input:focus {
+    box-shadow: 0 0 0 0.2rem #b9abe0;
+    backdrop-filter: blur(0.75rem);
+    border-radius: 32px;
+}
+
+.name-surname input::placeholder {
+    color: #80759e99;
+    font-weight: 100;
+}
+
+.input-box {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-box input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 32px;
+    height: 48px;
+    padding: 16px;
+    border: none;
+    outline: none;
+    color: #3c354e;
+    font-size: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease;
+}
+
+.input-box input:focus {
+    box-shadow: 0 0 0 0.2rem #b9abe0;
+    backdrop-filter: blur(0.75rem);
+    border-radius: 32px;
+}
+
+.input-box input::placeholder {
+    color: #80759e99;
+    font-weight: 100;
+}
+
+form .button {
+    margin: 1rem 0 2rem 0;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 65%;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.SignUpWith {
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+    font-size: small;
+}
+
+.HorizontalLine {
+    width: 90% !important;
+    height: 0.3rem !important;
+    border-radius: 0.8rem !important;
+    border: none !important;
+    margin: 1.5em 0 1rem 0 !important;
+    background: linear-gradient(to right, #14163c 0%, #03217b 79%) !important;
+    backdrop-filter: blur(25px) !important;
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.Icons a {
+    margin: 0 10%;
+}
+
+.Icons .fab {
+    font-size: min(32px, 48px);
+    background-image: linear-gradient(to right, #14163c 0%, #03217b 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 5px;
+}

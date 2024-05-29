@@ -1,0 +1,113 @@
+.background {
+    background-image: url('../../../public/images/aquarium.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .about-container {
+    height: 65%;
+    width: 70%;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    font-size: 1em; 
+    text-align: center;
+    animation: fadeInUp 1s ease;
+    display: flex; /* Added */
+  flex-direction: column; /* Added */
+  justify-content: center; 
+  }
+  
+  .about {
+    font-size: 2.5em; 
+    font-family: 'GothamBold';
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .about-desc {
+    margin: 0 auto;
+    padding: 0 10%;
+    font-family: "Gotham SSm A";
+    color: #fff;
+    font-weight: 100;
+    font-size: 1em; 
+    line-height: 1.75em;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+.homepage-text-image {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(1, 115, 177);
+    height: 500px !important;
+}
+
+
+.homepage-text-image .copy-container {
+    padding: 5% 5%;
+}
+
+.homepage-text-image .text-block {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.homepage-text-image .left {
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.homepage-text-image .right {
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+
+.homepage-text-image .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homepage-text-image .left1 {
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+}
+
+.homepage-text-image .right1 {
+    width: 50%;
+    float: right;
+    color: white;
+}
+
+.homepage-text-image .left1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
