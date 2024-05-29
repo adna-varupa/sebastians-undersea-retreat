@@ -10,7 +10,6 @@ import LandingPage from './pages/LandingPage'
 
 function App() {
   return (
-    <>
     <Router>
      <Routes>
       <Route path="/" element={<LandingPage />} />
@@ -20,7 +19,6 @@ function App() {
       <Route path="/register" element={<Register />} />
      </Routes>
      </Router>
-    </>
   );
 }
 
