@@ -27,7 +27,7 @@ export default function AboutUs(){
     <div className="homepage-text-image">
     <div className="left">
         <div className="copy-container">
-            <div className="text-block wysiwyg-formatting">
+            <div className="text-blck wysiwyg-formatting">
                 <h2 id="conservation">A Modest Beginning: Our Aquarium Museum's Humble Origins</h2>
                 <p id="consdesc">Born from the shared passion of marine enthusiasts, our aquarium museum started modestly in a corner of a local community center. Through grassroots support and volunteer dedication, we've grown into a vibrant hub of marine exploration and education.</p>
                 <p id="consdesc">Today, we stand as a testament to the power of community and the enduring importance of our mission to inspire understanding and conservation of the ocean.</p>

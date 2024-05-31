@@ -19,9 +19,9 @@
     font-size: 1em; 
     text-align: center;
     animation: fadeInUp 1s ease;
-    display: flex; /* Added */
-  flex-direction: column; /* Added */
-  justify-content: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
   }
   
   .about {
@@ -67,7 +67,7 @@
     padding: 5% 5%;
 }
 
-.homepage-text-image .text-block {
+.homepage-text-image .text-blck {
     max-width: 50%;
     margin: 0 auto;
 }

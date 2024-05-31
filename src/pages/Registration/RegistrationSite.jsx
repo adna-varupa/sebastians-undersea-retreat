@@ -4,7 +4,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Registration = () => {
     return (
-        <div className="MainContainer">
+        <div className="registration-background">
+        <div className="registration-container">
             <div className="RegistrationText">
                 <form action="">
                     <h2>Registration</h2>
@@ -18,7 +19,7 @@ const Registration = () => {
                 <input type="text" placeholder="Email" required />
                 <input type="password" placeholder="Password" required />
             </div>
-            <button className="button" type="submit">Sign Up</button>
+            <button className="submit-button" type="submit">Sign Up</button>
             <div className="SignUpWith">or Sign Up With</div>
             <hr className="HorizontalLine" />
             <div className="Icons">
@@ -32,6 +33,7 @@ const Registration = () => {
                     <i className="fab fa-twitter"></i>
                 </a>
             </div>
+        </div>
         </div>
     )
 }

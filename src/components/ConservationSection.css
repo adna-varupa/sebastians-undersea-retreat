@@ -55,7 +55,12 @@
 
 .homepage-text-image .left .copy-container {
     padding: 5% 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .homepage-text-image div {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
