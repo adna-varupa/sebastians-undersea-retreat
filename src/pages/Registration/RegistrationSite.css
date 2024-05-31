@@ -1,4 +1,4 @@
-.registration-background{
+.registration-background {
     background-image: url('../../../public/images/ocean.jpg');
     font-family: "Gotham SSm A", sans-serif;
     background-size: cover;
@@ -7,7 +7,6 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    text-decoration: inherit;
     margin: 0;
     color: inherit;
     background-color: transparent;
@@ -29,11 +28,14 @@
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
-    
+    margin: 0;
+    box-sizing: border-box;
 }
 
 form h2 {
     margin: 32px 0 20px 0;
+    font-size: 24px !important;
+    font-weight: bold !important;
 }
 
 form {
@@ -129,8 +131,6 @@ form {
     cursor: pointer;
     margin-top: 1rem;
 }
-
-
 
 .SignUpWith {
     cursor: pointer;
