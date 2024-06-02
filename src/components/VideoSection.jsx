@@ -22,14 +22,15 @@ const VideoSection = () => {
                         <p id="font">From easy timed entry to tours and experiences, your Aquarium experience is just a few clicks away.</p>
                         <nav>
                             <div className="buy-button">
-                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
+                                <a href="https://www.google.co.uk/">
                                     <span id="font">Buy Tickets</span>
                                 </a>
                             </div>
                         </nav>
                     </div>
                 </div>
-            </div>
+            </div>  
         </div>
       </div>
     </div>

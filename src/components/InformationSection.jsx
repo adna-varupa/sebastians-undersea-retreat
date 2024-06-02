@@ -22,7 +22,8 @@ const InformationSection = () => {
             </tr>
           </tbody>
         </table>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="purchase">Buy Tickets</a>
+        {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
+        <a href="https://www.google.co.uk/" className="purchase">Buy Tickets</a>
 
         <table>
           <caption id="tname"><i className="fas fa-users"></i> Membership</caption>
@@ -41,7 +42,8 @@ const InformationSection = () => {
             </tr>
           </tbody>
         </table>
-        <a href="https://www.youtube.com/" className="purchase">Buy Membership</a>
+        {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
+        <a href="https://www.google.co.uk/" className="purchase">Buy Membership</a> 
       </div>
       <div className="information">
         <div className="info-image"></div>
@@ -52,15 +54,7 @@ const InformationSection = () => {
                 <i className="fas fa-clock" aria-hidden="true"></i>
                 <span>Today's Hours:</span>                        
               </h2>
-              <p>
-                <time dateTime="2024-05-22T05:00:00-04:00">
-                  9 am
-                </time>
-                &nbsp;-&nbsp;
-                <time dateTime="2024-05-22T14:00:00-04:00">
-                  6 pm
-                </time>
-              </p>
+              <p>9 am - 6 pm</p>
             </li>
             <li>
               <h2>
