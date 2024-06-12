@@ -1,10 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-body {
+.MainContainer {
     background-image: url('../Contact/aquarium.jpg');
     background-size: cover;
     display: flex;
@@ -12,9 +7,13 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
+    font-family:"Gotham SSm A" ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .MainContainer {
+  .contact-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,6 +75,7 @@ body {
   letter-spacing: 0.2rem;
   font-size: 1.5rem;
   text-align: center;
+  font-weight: bold !important;
 }
 
 .contact-form form {
@@ -130,7 +130,7 @@ body {
 }
 
 .contact-form input::placeholder {
-  color: #3c354e;
+  color: #443d58ed;
   font-weight: 100;
 }
 

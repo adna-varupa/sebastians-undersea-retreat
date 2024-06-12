@@ -19,26 +19,6 @@
   font-style: normal;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: inherit;
-  text-transform: inherit;
-  list-style-type: inherit;
-  list-style-position: inherit;
-  letter-spacing: inherit;
-  line-height: inherit;
-  text-align: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  color: inherit;
-  background-color: transparent;
-  border: none;
-}
-
 body {
   margin: 0;
   font-family: 'ff-tisa-web-pro', serif;

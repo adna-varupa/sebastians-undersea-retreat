@@ -1,4 +1,21 @@
-.MainContainer {
+.registration-background {
+    background-image: url('../../../public/images/ocean.jpg');
+    font-family: "Gotham SSm A", sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+}
+
+.registration-container {
+    font-family: 'Gotham SSM A';
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,10 +28,14 @@
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 form h2 {
     margin: 32px 0 20px 0;
+    font-size: 24px !important;
+    font-weight: bold !important;
 }
 
 form {
@@ -57,7 +78,7 @@ form {
 }
 
 .name-surname input::placeholder {
-    color: #80759e99;
+    color: #443d58ed;
     font-weight: 100;
 }
 
@@ -89,19 +110,16 @@ form {
 }
 
 .input-box input::placeholder {
-    color: #80759e99;
+    color: #443d58d2;
     font-weight: 100;
 }
 
-form .button {
+.submit-button {
     margin: 1rem 0 2rem 0;
-    width: 100% !important;
+    width: 50% !important;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.button {
     background: linear-gradient(to right, #14163c 0%, #03217b 79%);
     text-transform: uppercase;
     letter-spacing: 0.2rem;

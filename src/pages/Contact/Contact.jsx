@@ -8,6 +8,7 @@ const Contact = () => {
 
     return (
         <div className="MainContainer">
+        <div className="contact-container">
             <div className="contact-info">
             <i className="fas fa-phone"></i>
             <span>Phone</span>
@@ -39,6 +40,7 @@ const Contact = () => {
                     <button type="submit">Submit</button>
                 </form>
             </div>
+        </div>
         </div>
     )
 }

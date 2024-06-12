@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './InformationSection.css';
 
 const InformationSection = () => {
@@ -9,7 +10,7 @@ const InformationSection = () => {
           <caption id="tname"><i className="fas fa-ticket"></i> Tickets</caption>
           <tbody>
             <tr>
-              <td className="g">Adults</td>
+              <td className="g">Adult</td>
               <td className="g">$25</td>
             </tr>
             <tr>
@@ -22,8 +23,10 @@ const InformationSection = () => {
             </tr>
           </tbody>
         </table>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="purchase">Buy Tickets</a>
-
+        {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
+        <Link to="/" className='purchase'>
+          <span >Buy Tickets</span>
+      </Link>
         <table>
           <caption id="tname"><i className="fas fa-users"></i> Membership</caption>
           <tbody>
@@ -41,7 +44,10 @@ const InformationSection = () => {
             </tr>
           </tbody>
         </table>
-        <a href="https://www.youtube.com/" className="purchase">Buy Membership</a>
+        {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
+        <Link to="/" className="purchase">
+            <span >Buy Tickets</span>
+        </Link>
       </div>
       <div className="information">
         <div className="info-image"></div>
@@ -52,15 +58,7 @@ const InformationSection = () => {
                 <i className="fas fa-clock" aria-hidden="true"></i>
                 <span>Today's Hours:</span>                        
               </h2>
-              <p>
-                <time dateTime="2024-05-22T05:00:00-04:00">
-                  9 am
-                </time>
-                &nbsp;-&nbsp;
-                <time dateTime="2024-05-22T14:00:00-04:00">
-                  6 pm
-                </time>
-              </p>
+              <p>9 am - 6 pm</p>
             </li>
             <li>
               <h2>
