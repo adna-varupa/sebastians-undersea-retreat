@@ -1,5 +1,6 @@
 import React from 'react';
 import './ConservationSection.css';
+import { Link } from 'react-router-dom';
 
 const ConservationSection = () => {
   return (
@@ -11,7 +12,10 @@ const ConservationSection = () => {
                     <p id="consdesc">When you visit Sebastians Undersea Retreat, you are making a difference to marine conservation. Every dollar you spend supports conservation projects around the world.</p>
                     <p id="consdesc">Our initiatives help protect species ranging from sea turtles and coral reefs in the Pacific to sharks and whales in the Atlantic. The ultimate mission of Sebastian's Undersea Retreat is to save one, save the species.</p>
                         <div className="button-container">
-                        <a className="button buttontwo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Support Marine Life</a>
+                        {/* Link za support je google zato sto nije implementirana ta stranica */}
+                        <Link to="/" className='buttontwo'>
+                             <span >Support Marine Life</span>
+                        </Link>
                         </div>
                 </div>
             </div>

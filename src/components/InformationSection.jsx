@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './InformationSection.css';
 
 const InformationSection = () => {
@@ -23,8 +24,9 @@ const InformationSection = () => {
           </tbody>
         </table>
         {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
-        <a href="https://www.google.co.uk/" className="purchase">Buy Tickets</a>
-
+        <Link to="/" className='purchase'>
+          <span >Buy Tickets</span>
+      </Link>
         <table>
           <caption id="tname"><i className="fas fa-users"></i> Membership</caption>
           <tbody>
@@ -43,7 +45,9 @@ const InformationSection = () => {
           </tbody>
         </table>
         {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
-        <a href="https://www.google.co.uk/" className="purchase">Buy Membership</a> 
+        <Link to="/" className="purchase">
+            <span >Buy Tickets</span>
+        </Link>
       </div>
       <div className="information">
         <div className="info-image"></div>

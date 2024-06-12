@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './VideoSection.css';
 
 const VideoSection = () => {
@@ -22,10 +23,10 @@ const VideoSection = () => {
                         <p id="font">From easy timed entry to tours and experiences, your Aquarium experience is just a few clicks away.</p>
                         <nav>
                             <div className="buy-button">
-                                {/* Link za kupovinu je google zato sto nije implementirana ta stranica */}
-                                <a href="https://www.google.co.uk/">
-                                    <span id="font">Buy Tickets</span>
-                                </a>
+                                {/* Link za kupovinu je landing page zato sto nije implementirana ta stranica */}
+                                <Link to="/" id="font">
+                                    <span >Buy Tickets</span>
+                                </Link>
                             </div>
                         </nav>
                     </div>
